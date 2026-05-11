@@ -1,15 +1,15 @@
 {
     "output": {
         "bass_enhancer#0": {
-            "amount": 18.000000000000025,
+            "amount": 12.0,
             "blend": 0.0,
             "bypass": false,
             "floor": 10.0,
             "floor-active": true,
-            "harmonics": 5.000000000000018,
+            "harmonics": 6.0,
             "input-gain": 0.0,
             "output-gain": 0.0,
-            "scope": 200.0
+            "scope": 150.0
         },
         "blocklist": [],
         "equalizer#0": {
@@ -327,7 +327,7 @@
                 },
                 "band6": {
                     "frequency": 81.83,
-                    "gain": 0.0,
+                    "gain": 4.5,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 4.36,
@@ -338,7 +338,7 @@
                 },
                 "band7": {
                     "frequency": 101.55,
-                    "gain": 0.0,
+                    "gain": 4.0,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 4.36,
@@ -349,7 +349,7 @@
                 },
                 "band8": {
                     "frequency": 126.0,
-                    "gain": 0.0,
+                    "gain": 3.0,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 4.36,
@@ -360,7 +360,7 @@
                 },
                 "band9": {
                     "frequency": 156.38,
-                    "gain": 0.0,
+                    "gain": 2.0,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 4.36,
@@ -686,7 +686,7 @@
                 },
                 "band6": {
                     "frequency": 81.83,
-                    "gain": 0.0,
+                    "gain": 4.5,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 4.36,
@@ -697,7 +697,7 @@
                 },
                 "band7": {
                     "frequency": 101.55,
-                    "gain": 0.0,
+                    "gain": 4.0,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 4.36,
@@ -708,7 +708,7 @@
                 },
                 "band8": {
                     "frequency": 126.0,
-                    "gain": 0.0,
+                    "gain": 3.0,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 4.36,
@@ -719,7 +719,7 @@
                 },
                 "band9": {
                     "frequency": 156.38,
-                    "gain": 0.0,
+                    "gain": 2.0,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 4.36,
@@ -735,7 +735,7 @@
             "balance": 0.0,
             "bypass": false,
             "equal-mode": "IIR",
-            "frequency": 90.0,
+            "frequency": 50.0,
             "gain": 0.0,
             "input-gain": 0.0,
             "mode": "RLC (BT)",
@@ -767,19 +767,19 @@
         },
         "multiband_compressor#0": {
             "band0": {
-                "attack-threshold": -20.0,
-                "attack-time": 50.0,
+                "attack-threshold": -24.0,
+                "attack-time": 80.0,
                 "boost-amount": 6.0,
                 "boost-threshold": -72.0,
                 "compression-mode": "Downward",
                 "compressor-enable": true,
                 "external-sidechain": false,
-                "knee": -12.0,
-                "makeup": 2.0000000000000053,
+                "knee": -9.0,
+                "makeup": 4.0,
                 "mute": false,
-                "ratio": 12.0,
+                "ratio": 4.0,
                 "release-threshold": -100.0,
-                "release-time": 300.0,
+                "release-time": 400.0,
                 "sidechain-custom-highcut-filter": false,
                 "sidechain-custom-lowcut-filter": false,
                 "sidechain-highcut-frequency": 500.0,
